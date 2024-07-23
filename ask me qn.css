@@ -1,0 +1,65 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.message-box {
+    background: linear-gradient(to bottom, #ffecb3, #ffcc80);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.avatar {
+    background: radial-gradient(circle, #ffcc80, #ffa726);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message-box h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+.message-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    background: linear-gradient(to bottom, #ffecb3, #ffcc80);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #333;
+}
+
+.buttons button:hover {
+    background: linear-gradient(to bottom, #ffd54f, #ffb74d);
+}
